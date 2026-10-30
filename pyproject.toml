@@ -1,0 +1,9 @@
+[project]
+name = "dd"
+version = "0.1.0"
+description = "Research pipeline: linguistic indicators of depression in PL/EN social media text"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
