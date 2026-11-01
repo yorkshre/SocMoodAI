@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it as below."
+title: "dd: research pipeline for linguistic indicators of depression in PL/EN social media text"
+type: software
+version: 0.1.0
+date-released: "2026-11-01"
+license: MIT
+authors:
+  - family-names: "[Skamruk]"
+    given-names: "[Agata]"
+   - orcid: "https://orcid.org/0009-0000-3371-5000"
+    # affiliation: "[instytucja, jeśli dotyczy]"
+repository-code: "[https://github.com/yorkshre/SocMoodAI]"
+keywords:
+  - natural language processing
+  - mental health
+  - depression
+  - psycholinguistics
+  - cross-lingual transfer
