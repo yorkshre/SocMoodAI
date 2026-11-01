@@ -36,6 +36,17 @@ Dla samego angielskiego: `--model roberta-base`; dla samego polskiego: `--model 
 - `transformer.py` — fine-tuning, chunkowanie, agregacja, dobór progu, metryki
 - `tests/` — testy jednostkowe
 
+## Kod: MIT (plik LICENSE).##
+- Kod: MIT (plik LICENSE).
+- Dane nie są częścią repozytorium i mają własne licencje i umowy dostępu. Katalog data/ jest ignorowany przez git.
+- Modele bazowe (np. XLM-R, RoBERTa, HerBERT) mają własne licencje; sprawdź je przed użyciem i publikacją.
+- Wagi modeli wytrenowanych na danych z ograniczeniami mogą dziedziczyć te ograniczenia; nie publikuj ich bez sprawdzenia warunków umowy o dostęp do danych.
+- Jak cytować: CITATION.cff.
+- Dane nie są częścią repozytorium i mają własne licencje i umowy dostępu. Katalog data/ jest ignorowany przez git.
+- Modele bazowe (np. XLM-R, RoBERTa, HerBERT) mają własne licencje, sprawdź je przed użyciem i publikacją.
+- Wagi modeli wytrenowanych na danych z ograniczeniami mogą dziedziczyć te ograniczenia; nie publikuj ich bez sprawdzenia warunków umowy o dostęp do danych.
+- Jak cytować: CITATION.cff.
+
 ## Zasady metodologiczne
 - Podział po użytkownikach, nigdy po wpisach (wyciek danych).
 - Stałe ziarno losowości, konfiguracja w kodzie/skryptach, raportuj wszystkie metryki.
